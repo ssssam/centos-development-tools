@@ -1,2 +1,2 @@
-FROM centos:7
+FROM quay.io/centos/centos:7
 RUN yum groupinstall -y "Development Tools"
